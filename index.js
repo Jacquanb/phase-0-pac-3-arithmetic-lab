@@ -22,5 +22,12 @@ divide = function (a, b) {
     let divide = a / b;
     return divide;
 }
-let increment = n;
-increment++;
+
+
+function increment(n){
+    n = 1;
+    n++;
+    return n;
+}
+
+console.log(increment);
