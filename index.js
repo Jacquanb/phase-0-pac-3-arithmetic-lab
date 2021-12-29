@@ -25,9 +25,29 @@ divide = function (a, b) {
 
 
 function increment(n){
-    n = 1;
     n++;
     return n;
 }
 
 console.log(increment);
+
+function decrement(n){
+    n--;
+    return n;
+}
+
+console.log(decrement);
+
+function makeInt(n) {
+    let parse = parseInt(n, 10);
+    return parse;
+}
+
+console.log(makeInt);
+
+function preserveDecimal(n) {
+    let parse = parseFloat(n, 10);
+    return parse;
+}
+
+console.log(preserveDecimal);
